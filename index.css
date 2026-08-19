@@ -1,0 +1,124 @@
+body {
+  margin:0;
+  background-image: url(wbbg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+#img1 {
+  margin: 0px;
+  height: 40px;
+  float:left;
+}
+
+.navrw ul {
+  color: white;
+  list-style-type: none;
+}
+
+.navrw a{
+  font-size: 1.1em;
+  font-family: Smooch Sans;
+  margin-right: 10px;
+  color:white;
+  text-decoration: none;
+  padding: 5px;
+  position: relative;
+  top: 10px;
+  float: right
+}
+
+h1 {
+  text-shadow: 3px 3px 3px black;
+  font-size: 4em;
+  color: white;
+  font-family: Smooch Sans;
+  text-align: center;
+  position: relative;
+  top: -30px
+}
+
+#loginf {
+  box-shadow: 5px 5px 5px black;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  border: outset;
+  position:relative;
+  left: 50px;
+}
+
+#username {
+  background: none;
+  border-color: white;
+  border-radius: 10px;
+  color:white;
+  width: 180px;
+}
+
+#label1 {
+  font-family: Smooch Sans;
+  color: white;
+}
+
+#label2 {
+  font-family: Smooch Sans;
+  color:white;
+}
+
+#password {
+  background: none;
+  border-color: white;
+  border-radius:10px;
+  width: 180px;
+  color: white;
+}
+
+#loginBtn {
+  cursor:pointer;
+  color:white;
+  background: none;
+  border-color: white;
+  border-radius: 10px;
+  font-family: Smooch Sans;
+  width: 250px;
+  font-weight: bold;
+  font-size: 15px;
+  min-height: 30px;
+  transition: background-color 0.25s;
+}
+
+#loginBtn:hover {
+  background-color: white;
+  color:black;
+  border-color: black;
+  
+}
+
+
+
+#img2 {
+  width: 100px;
+  position: relative;
+  left: 78px;
+  top: 20px;
+}
+
+#fPass {
+  
+  font-family: Smooch Sans;
+  color: white;
+  font-size: 15px;
+}
+
+#p1 {
+  color: white;
+  font-family: Smooch Sans;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px black;
+}
